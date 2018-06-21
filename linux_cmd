@@ -1,0 +1,4 @@
+/etc/group
+groups [root]
+
+sudo passwd smbuser
