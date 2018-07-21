@@ -1,0 +1,12 @@
+wget https://dl.tvcdn.de/download/linux/version_13x/teamviewer_13.1.8286_amd64.deb
+
+sudo dpkg -i  teamviewer_13.1.8286_amd64.deb
+
+sudo apt-get install -f 
+
+sudo dpkg -i teamviewer_13.1.8286_amd64.deb
+
+teamviewer --deamon start //启动
+teamviewer --deamon restart
+teamviewer --deamon stop
+teamviewer --passwd 1111 //set password as 1111
